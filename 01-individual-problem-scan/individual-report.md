@@ -4,10 +4,13 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...):
+- Họ và tên: Nguyễn Thanh Giang
+- Mã học viên: 2A202602576
+- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): sinh viên thực hiện nghiên cứu và xử lí dữ liệu cho mô hình ML/DL.
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+  * Xử lý dữ liệu đầu vào cho mô hình ML/DL;
+  * Xây dựng và kiểm tra mô hình;
+  * Tìm giải pháp mang tính khoa học khi gặp vấn đề.
 
 ---
 
