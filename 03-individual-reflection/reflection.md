@@ -4,10 +4,10 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Candidate problem nhóm chọn:
+- Họ và tên: Nguyễn Thanh Giang
+- Mã học viên: 2A202602576
+- Nhóm: Ryzen
+- Candidate problem nhóm chọn: Theo dõi deadline học tập từ nhiều kênh
 
 ---
 

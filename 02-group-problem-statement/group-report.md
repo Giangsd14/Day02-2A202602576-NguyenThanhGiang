@@ -6,11 +6,11 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
-| 1   |           |             |                                                               |
-| 2   |           |             |                                                               |
-| 3   |           |             |                                                               |
-| 4   |           |             |                                                               |
-
+| 1   | Nguyễn Thị Bảo Trang    |      2A202602580       |                       Leader                                      |
+| 2   | Nguyễn Tất Đạt          |   2A202602578        |            writer, research                                                   |
+| 3   |   Nguyễn Hồng Cường        |     2A202602415     |                           research                          |
+| 4   |       Nguyễn Thanh Giang |   2A202602576           |                    writer, research                                           |
+| 4   |       Đặng Thế Vinh  |   2A202602587         |                   workflow                                            |
 **Candidate problem nhóm chọn (1 câu):**
 
 Sinh viên đại học phải tự theo dõi deadline học tập từ nhiều kênh rời rạc, khiến họ mất thời gian tổng hợp và có nguy cơ bỏ sót hoặc xử lý công việc sát hạn.
@@ -160,26 +160,34 @@ Nhóm nên thử một lịch tập trung và quy tắc nhập deadline trước
 
 ### 5.1. Current workflow bản nhóm
 
-Dán workflow hoặc link file: `02-group-problem-statement-workflow.png/pdf/md`
+Dán workflow hoặc link file: [02-group-problem-statement-workflow.png](02-group-problem-statement-workflow.png)
+
+![Current và future workflow](02-group-problem-statement-workflow.png)
 
 ```text
-[1 ...: __' - ai làm] → [2 ...: __'] → [3 ...: __'] → [4 ... bottleneck: __'] → ...
+[1 Nhận thông báo: theo sự kiện - hệ thống/giảng viên]
+→ [2 Đọc và tự trích xuất thông tin: 2-3'/thông báo - sinh viên]
+→ [3 Đối chiếu phiên bản giữa 3-4 nguồn: 3-5'/lần thay đổi - sinh viên, bottleneck]
+→ [4 Ghi deadline vào note/calendar/todo: 1-2'/deadline - sinh viên]
+→ [5 Tự sửa deadline khi có thông báo mới: 1-2'/lần thay đổi - sinh viên]
+→ [6 Mở lại các kênh để rà soát: khoảng 10'/ngày - sinh viên]
+→ [7 Phát hiện sát hạn nếu kiểm tra muộn: phát sinh làm/ôn gấp - sinh viên]
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú (handoff? bottleneck?) |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
+| 1 | LMS, email, nhóm chat, giảng viên hoặc tài liệu môn học | Thông báo mới về bài tập, quiz, thuyết trình hoặc lịch kiểm tra | Thông báo nằm rải rác tại từng kênh | Theo sự kiện; nhiều lần trong tuần | Handoff từ nhiều nguồn sang sinh viên; định dạng và độ đầy đủ không đồng nhất. |
+| 2 | Sinh viên | Nội dung từng thông báo | Tên môn, tên việc, deadline và yêu cầu được hiểu tạm thời | Khoảng 2-3 phút/thông báo (ước lượng cần đo trong pilot) | Trích xuất thủ công; dễ đọc thiếu chi tiết hoặc hiểu sai ngày giờ. |
+| 3 | Sinh viên | Các thông báo có thể trùng, nhắc lại hoặc thay đổi | Phiên bản deadline được cho là mới nhất | Khoảng 3-5 phút/lần có thay đổi (ước lượng cần đo) | **Bottleneck:** phải so nguồn, thời điểm và ngữ cảnh; không có một nguồn sự thật duy nhất. |
+| 4 | Sinh viên | Deadline đã tự xác định | Một mục trong note, calendar, todo app hoặc trí nhớ | Khoảng 1-2 phút/deadline (ước lượng cần đo) | Handoff thủ công sang công cụ cá nhân; có thể nhập thiếu hoặc sai. |
+| 5 | Sinh viên | Thông báo cập nhật deadline | Mục cũ được tìm và sửa lại | Khoảng 1-2 phút/lần thay đổi (ước lượng cần đo) | Dễ tồn tại hai phiên bản nếu quên sửa hoặc sửa nhầm mục. |
+| 6 | Sinh viên | Calendar, LMS, email và nhóm chat | Danh sách deadline được rà soát lại | Khoảng 10 phút/ngày theo baseline sơ bộ | Công việc lặp lại; phụ thuộc thói quen chủ động của sinh viên. |
+| 7 | Sinh viên | Deadline bị bỏ sót hoặc được phát hiện muộn | Bài làm/việc ôn tập phải xử lý gấp | Khi bước rà soát không diễn ra kịp thời | Đây là hậu quả của workflow, không phải một bước tạo giá trị. |
 
 **Bottleneck chính (2-3 câu):**
 
 ```text
-
+Bottleneck nằm ở bước 3 và lặp lại ở bước 5-6: sinh viên phải tự đối chiếu nhiều thông báo để xác định phiên bản deadline mới nhất, sau đó nhớ cập nhật đúng mục đã lưu. Việc này không khó ở từng thao tác riêng lẻ nhưng diễn ra trên 3-4 kênh, phụ thuộc vào thói quen kiểm tra hằng ngày và hiện tốn khoảng 10 phút/ngày; nếu bỏ một lần kiểm tra, lỗi chỉ được phát hiện khi đã gần hạn.
 ```
 
 ### 5.2. Future workflow bản nhóm
@@ -187,35 +195,42 @@ Dán workflow hoặc link file: `02-group-problem-statement-workflow.png/pdf/md`
 Phải nhìn ra 5 thứ: bước nào máy (Rule), bước nào AI, bước nào người, boundary ở đâu, fallback khi AI sai.
 
 ```text
-[1 ...: __' - máy] → [2 AI ...: __'] → [3 ... review: __' - boundary] → [4 ... gửi]
+[1 Thu nhận thông báo: liên tục - Rule/connector]
+→ [2 Import trường có cấu trúc từ LMS/calendar: <0,5'/batch - Rule]
+  hoặc [2 AI trích xuất email/chat không cấu trúc: <1'/batch - AI]
+→ [3 Chuẩn hóa về cùng schema và gắn link nguồn: <0,5'/batch - Workflow]
+→ [4 So khớp, gộp trùng, phát hiện thay đổi/xung đột: <0,5'/batch - Rule + AI]
+→ [5 Sinh viên xem nguồn, sửa nếu cần và xác nhận: 1-2'/batch - HUMAN BOUNDARY]
+→ [6 Ghi/cập nhật lịch tập trung và tạo nhắc việc: <0,5'/batch - Rule]
 
-Fallback: ...
+Fallback: Nếu thiếu quyền truy cập, AI có độ tin cậy thấp hoặc hai nguồn xung đột, workflow không ghi lịch mà đưa mục vào hàng chờ. Sinh viên mở thông báo gốc, nhập/sửa thủ công; mọi cập nhật lịch có lịch sử và có thể hoàn tác.
 ```
 
 **Before/after impact:**
 
 | Metric | Trước | Sau kỳ vọng | Cách đo |
 |---|---:|---:|---|
-| Tổng thời gian | | | |
-| Số bước | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Risk mới | | | |
+| Tổng thời gian | Khoảng 10 phút/ngày | Không quá 3 phút/ngày | Ghi time log trong 2 tuần, tính trung bình theo người/ngày. |
+| Số bước | 7 bước | 6 bước | Đếm các bước từ lúc nhận thông báo đến khi lịch tập trung được cập nhật; bước phát hiện sát hạn được loại khỏi happy path. |
+| Số bước thủ công | 5 bước xử lý thủ công (bước 2-6) | 1 bước bắt buộc review/xác nhận; 1 bước sửa khi có ngoại lệ | Ghi log thao tác và đếm số lần sinh viên phải đọc, nhập hoặc sửa bằng tay. |
+| Bottleneck chính | Đối chiếu phiên bản và kiểm tra lại 3-4 kênh | Review các mục bị đổi, xung đột hoặc độ tin cậy thấp | Đo thời gian review và số mục bị đưa vào hàng chờ. |
+| Risk mới | Không có lỗi do AI, nhưng dễ bỏ sót do thao tác tay | AI có thể trích sai ngày, môn hoặc chọn sai phiên bản | Đối chiếu output với thông báo gốc trước khi xác nhận; theo dõi số trường phải sửa và số lần hoàn tác. |
+| Deadline bị bỏ sót từ nguồn theo dõi | Chưa có baseline chắc chắn; đã có nguy cơ phát hiện sát hạn | 0 deadline bị bỏ sót trong pilot | Cuối mỗi tuần đối soát lịch tập trung với toàn bộ thông báo thuộc phạm vi pilot. |
 
 ### 5.3. Problem Statement v0 (mỗi field 2-3 câu)
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** | |
+| **Actor** | Sinh viên đại học phải quản lý bài tập, quiz, thuyết trình và lịch kiểm tra trong nhiều môn học. Họ nhận thông tin qua LMS, email, nhóm chat, giảng viên và tài liệu môn học. |
+| **Workflow** | Sinh viên đọc từng thông báo, tự trích xuất thông tin, đối chiếu phiên bản, nhập hoặc sửa deadline trong công cụ cá nhân rồi định kỳ mở lại các kênh để kiểm tra. Current workflow gồm 7 bước và phụ thuộc chủ yếu vào thao tác thủ công. |
+| **Bottleneck** | Bước đối chiếu phiên bản mới nhất là điểm nghẽn vì thông báo có thể bị nhắc lại, thay đổi hoặc chỉ xuất hiện ở một kênh. Điểm nghẽn lặp lại khi sinh viên phải tìm đúng mục cũ để cập nhật và rà soát 3-4 kênh. |
+| **Impact** | Baseline sơ bộ là khoảng 10 phút/ngày chỉ để kiểm tra và tổng hợp deadline. Nếu kiểm tra muộn hoặc nhập sai, sinh viên có thể phát hiện bài tập/lịch kiểm tra sát hạn và phải làm hoặc ôn tập gấp. |
+| **Success Metric** | Trong pilot 2 tuần, giảm thời gian theo dõi trung bình từ khoảng 10 xuống không quá 3 phút/ngày và giảm còn một bước review bắt buộc. Không bỏ sót deadline từ các nguồn thuộc phạm vi pilot; các trường AI trích xuất phải được đo bằng tỷ lệ đúng trước khi người dùng sửa. |
+| **Boundary** | Chỉ xử lý deadline học tập từ các nguồn người dùng cho phép và chỉ ghi lịch sau khi sinh viên xác nhận. Không tự nộp bài, tự quyết định ưu tiên học tập, quản lý lịch cá nhân ngoài học tập hoặc coi nội dung AI suy luận là nguồn chính thức. |
 
 **Câu hỏi AI phản biện v0 (nếu có):**
-- Field nào mơ hồ:
-- Tôi sửa gì:
+- Field nào mơ hồ: Baseline số deadline bị bỏ sót và tỷ lệ trích xuất đúng chưa có số đo; khái niệm “nguồn mới nhất” cũng chưa đủ chặt khi email, chat và LMS mâu thuẫn.
+- Tôi sửa gì: Ở v1, nhóm quy định output bắt buộc có link nguồn, thời điểm thông báo và trạng thái xác nhận; mọi thay đổi/xung đột phải qua sinh viên review. Metric được gắn với pilot 2 tuần và cách đo cụ thể.
 
 ---
 
@@ -223,120 +238,109 @@ Fallback: ...
 
 ### 6.0. Ma trận độ phù hợp (suy nghĩ nhanh, không thay quyết định cuối)
 
-- Độ mơ hồ: [ ] Thấp (có đúng/sai rõ) / [ ] Cao (nhiều cách trả lời vẫn OK) — Vì sao:
-- Độ phức tạp: [ ] Thấp (1-2 bước) / [ ] Cao (3+ bước/nguồn, phụ thuộc nhau) — Vì sao:
+- Độ mơ hồ: [ ] Thấp (có đúng/sai rõ) / [x] Cao (nhiều cách trả lời vẫn OK) — Vì email/chat có thể diễn đạt deadline gián tiếp, thiếu múi giờ hoặc mâu thuẫn với một thông báo trước đó; hệ thống phải thể hiện độ tin cậy thay vì tự coi một suy luận là đúng.
+- Độ phức tạp: [ ] Thấp (1-2 bước) / [x] Cao (3+ bước/nguồn, phụ thuộc nhau) — Vì workflow nhận dữ liệu từ 3-4 nguồn, chuẩn hóa, so khớp phiên bản, review rồi mới cập nhật lịch.
 
 **Bài toán nhóm nằm ở ô nào:**
 
 ```text
-
+Độ phức tạp cao × độ mơ hồ cao.
 ```
 
 **Vì sao (2-3 câu):**
 
 ```text
-
+Dữ liệu đi qua nhiều nguồn và bước sau phụ thuộc kết quả trích xuất, chuẩn hóa ở bước trước nên độ phức tạp cao. Ngôn ngữ tự nhiên và thông báo thay đổi làm đầu vào có độ mơ hồ cao; tuy nhiên đường xử lý sau khi nhận input vẫn cố định, vì vậy nhóm có thể kiểm soát bằng Workflow và human boundary thay vì giao toàn quyền cho Agent.
 ```
 
 ### 6.1. So sánh Rule / Workflow / Agent (so trên cùng 1 bài)
 
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? (Dùng cho bước nào?) |
 |---|---|---|---|---|
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **Rule** | Đồng bộ calendar feed, map các trường cố định, gộp bản ghi theo ID và gửi reminder theo mốc thời gian. | Đủ khi deadline có cấu trúc chuẩn và nguồn cung cấp ID/version đáng tin cậy. | Không hiểu tốt email/chat tự nhiên; có thể tạo mục trùng hoặc bỏ qua thay đổi diễn đạt tự do. | Chọn cho thu nhận nguồn có cấu trúc, ghi/cập nhật calendar và reminder. |
+| **Workflow** | Connector/forward input → Rule hoặc AI trích xuất → chuẩn hóa → phát hiện trùng/thay đổi → sinh viên xác nhận → Rule cập nhật lịch. | Đủ vì chuỗi bước và điểm rẽ nhánh đã biết trước; AI chỉ xử lý ngôn ngữ và hỗ trợ so khớp. | Sai ngày, môn hoặc phiên bản có thể đi tiếp qua nhiều bước nếu thiếu review; cần log nguồn và cơ chế hoàn tác. | **Chọn làm mức tổng thể**, với human boundary trước mọi thay đổi lịch. |
+| **Agent** | Tự truy cập nhiều hệ thống, quyết định nguồn nào cần kiểm tra, hỏi thêm, sửa lịch và điều chỉnh kế hoạch học tập. | Chỉ cần nếu hệ thống phải tự lập kế hoạch, chọn công cụ và xử lý nhiều nhánh chưa biết trước. | Quyền truy cập rộng, hành vi khó dự đoán và nguy cơ tự sửa deadline sai; khó audit trong scope lab. | Không chọn; bài toán chưa cần tự chủ ở mức Agent. |
 
 **5 câu hỏi chốt (trả lời câu đầy đủ):**
-1. Rule có giải được 70-80% case không?
-2. Các bước có đi thẳng một đường không hay phải rẽ nhánh?
-3. Có thật sự cần Agent tự lập kế hoạch + gọi tool không?
-4. Nếu AI sai, ai phát hiện đầu tiên và sửa trong bao lâu?
-5. Có hạ được từ Agent → Workflow → Rule không?
+1. Rule chưa giải được 70-80% toàn bộ case vì chỉ đáng tin với LMS/calendar có cấu trúc, trong khi email và nhóm chat có cách diễn đạt và cập nhật không cố định.
+2. Workflow có một đường chính cố định nhưng rẽ nhánh tại loại input có cấu trúc/không cấu trúc và tại trường hợp xung đột hoặc độ tin cậy thấp.
+3. Không cần Agent tự lập kế hoạch hoặc tự chọn tool; các nguồn, schema, thứ tự xử lý và điểm review đều có thể cấu hình trước.
+4. Sinh viên là người phát hiện đầu tiên tại màn hình review bằng cách so với đoạn trích và link nguồn; mục tiêu là sửa trong cùng batch, không quá 2 phút trước khi lịch được ghi.
+5. Có thể hạ từ Agent xuống Workflow ngay; với môn học có calendar feed chuẩn, nhánh đó còn có thể hạ tiếp xuống Rule.
 
 **Mức chọn:**
 
 ```text
-[Rule / Workflow / Agent]
+Workflow
 ```
 
 **Vì sao chọn (3-4 câu):**
 
 ```text
-
+Nhóm chọn Workflow vì bài toán có nhiều nguồn và nhiều bước phụ thuộc nhau nhưng đường xử lý có thể xác định trước. Rule đảm nhiệm dữ liệu có cấu trúc và cập nhật lịch, AI chỉ trích xuất/so khớp ngôn ngữ tự nhiên, còn sinh viên xác nhận trước khi ghi. Cách này giảm thao tác lặp lại mà vẫn giữ được nguồn tham chiếu, khả năng audit và quyền quyết định cuối ở người dùng. Agent không cần thiết vì hệ thống không phải tự lập kế hoạch hay tự chọn hành động tiếp theo ngoài workflow đã định nghĩa.
 ```
 
 **Vì sao không chọn mức đơn giản hơn (2-3 câu):**
 
 ```text
-
+Rule đơn thuần chưa đủ cho email/chat không có schema và các câu cập nhật như “lùi bài thêm hai ngày” vốn cần hiểu ngữ cảnh. Tuy vậy, từng nhánh có input/output rõ nên nhóm dùng Rule ở nơi có cấu trúc và chỉ thêm AI ở bước ngôn ngữ, thay vì nâng toàn bộ hệ thống thành Agent.
 ```
 
 ### 6.2. Problem Statement v1 (v0 sửa chặt hơn + 3 field cuối)
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** (làm / không làm) | |
-| **AI intervention point** (can thiệp sau bước nào, trước bước nào) | |
-| **Mức chọn** (Rule / Workflow / Agent + 1 câu vì sao) | |
-| **Rủi ro & người thật kiểm tra** (rủi ro lớn nhất + ai kiểm tra bằng cách nào) | |
+| **Actor** | Sinh viên đại học quản lý deadline bài tập, quiz, thuyết trình và lịch kiểm tra của nhiều môn, với thông báo đến từ LMS, email, nhóm chat, giảng viên hoặc tài liệu môn học. Người dùng cuối đồng thời là owner chịu trách nhiệm xác nhận thay đổi lịch. |
+| **Workflow** | Current: nhận thông báo → đọc/trích xuất → đối chiếu phiên bản → nhập lịch → sửa khi thay đổi → rà soát kênh → có thể phát hiện sát hạn. Future: thu nhận → Rule/AI trích xuất → chuẩn hóa → so khớp/xử lý xung đột → sinh viên xác nhận → Rule cập nhật lịch và reminder. |
+| **Bottleneck** | Sinh viên phải đối chiếu thông báo trên 3-4 nguồn để xác định deadline mới nhất, rồi cập nhật đúng bản ghi cũ. Đây là bước tốn công nhận thức và tạo rủi ro bỏ sót cao hơn thao tác nhập lịch đơn thuần. |
+| **Impact** | Baseline sơ bộ là khoảng 10 phút/ngày, tương đương khoảng 70 phút/tuần, cho việc kiểm tra và tổng hợp. Khi workflow bị gián đoạn, deadline có thể chỉ được phát hiện khi gần hạn, làm giảm thời gian chuẩn bị. |
+| **Success Metric** | Trong pilot 2 tuần: thời gian trung bình không quá 3 phút/ngày; 0 deadline bị bỏ sót trong các nguồn được theo dõi; ít nhất 90% trường tên việc, môn và deadline được AI trích đúng trước khi người dùng sửa. Đồng thời theo dõi tỷ lệ mục cần sửa và số lần hoàn tác để không đánh đổi tốc độ bằng độ chính xác. |
+| **Boundary** (làm / không làm) | Làm: thu nhận từ nguồn được cấp quyền, trích xuất dữ liệu deadline, gắn link nguồn, phát hiện trùng/thay đổi, xin xác nhận rồi cập nhật lịch học tập tập trung. Không làm: tự ghi khi chưa xác nhận, tự nộp bài, tự lập kế hoạch học, đọc nguồn ngoài quyền cho phép hoặc quản lý lịch cá nhân ngoài học tập. |
+| **AI intervention point** (can thiệp sau bước nào, trước bước nào) | AI can thiệp sau khi thông báo không cấu trúc từ email/chat được thu nhận và trước khi sinh viên review. AI chỉ đề xuất trường dữ liệu và khả năng bản ghi mới thay thế bản ghi cũ; không có quyền commit vào calendar. |
+| **Mức chọn** (Rule / Workflow / Agent + 1 câu vì sao) | **Workflow:** phối hợp Rule cho thao tác xác định, AI cho ngôn ngữ không cấu trúc và sinh viên cho quyết định cuối trong một chuỗi bước cố định. |
+| **Rủi ro & người thật kiểm tra** (rủi ro lớn nhất + ai kiểm tra bằng cách nào) | Rủi ro lớn nhất là AI trích sai ngày hoặc coi nhầm một thông báo cũ là bản mới. Sinh viên kiểm tra đoạn trích, timestamp và link nguồn tại bước review; mục xung đột bị chặn, mọi thay đổi được ghi log và có thể hoàn tác. |
 
 ### 6.3. Final decision
 
 | Câu hỏi | Yes / Not Yet / No | Ghi chú (câu đầy đủ) |
 |---|---|---|
-| Actor + workflow rõ chưa? | | |
-| Baseline + metric đo được chưa? | | |
-| Data/input đủ dùng chưa? | | |
-| AI sai, hậu quả chấp nhận được không? | | |
-| Có người review/owner không? | | |
-| Có cách non-AI đơn giản hơn không? | | |
+| Actor + workflow rõ chưa? | Yes | Actor là sinh viên đại học; current workflow 7 bước và future workflow 6 bước đã chỉ rõ input, output, actor, bottleneck và handoff. |
+| Baseline + metric đo được chưa? | Yes | Có baseline sơ bộ khoảng 10 phút/ngày và 3-4 kênh; pilot sẽ đo thời gian, tỷ lệ trích xuất đúng và số deadline bị bỏ sót theo cùng một cách trong 2 tuần. |
+| Data/input đủ dùng chưa? | Yes | Có thể bắt đầu bằng 20-30 thông báo lịch sử đã ẩn dữ liệu nhạy cảm và các notification mới từ LMS, email hoặc chat do người tham gia chủ động cung cấp. |
+| AI sai, hậu quả chấp nhận được không? | Yes | Hậu quả chấp nhận được trong pilot vì AI chỉ tạo đề xuất; sinh viên phải xác nhận trước khi ghi và có thể hoàn tác mọi thay đổi. |
+| Có người review/owner không? | Yes | Mỗi sinh viên là owner của lịch mình và chịu trách nhiệm review các mục mới, thay đổi hoặc xung đột. |
+| Có cách non-AI đơn giản hơn không? | Yes | Calendar feed, checklist và reminder theo Rule được dùng cho nguồn có cấu trúc; AI chỉ bổ sung cho email/chat mà Rule không xử lý ổn định. |
 
 **Decision:**
 
 ```text
-[Go / Not Yet / No-Go]
+Go với pilot nhỏ, có human-in-the-loop.
 ```
 
 **Lý do (3-4 câu dựa trên bằng chứng):**
 
 ```text
-
+Nhóm chọn Go vì actor, current workflow và điểm nghẽn đối chiếu deadline đa nguồn đã xác định rõ, đồng thời có baseline thời gian và metric để kiểm tra hiệu quả. Research cho thấy calendar feed và reminder có thể xử lý phần có cấu trúc, còn AI được giới hạn ở bước trích xuất/so khớp thông báo không cấu trúc. Pilot có rủi ro thấp vì AI không tự ghi lịch, sinh viên xác nhận bằng nguồn gốc trước mọi thay đổi và hệ thống có cơ chế hoàn tác. Kết quả pilot sẽ quyết định giữ AI cho nhánh email/chat hay hạ nhánh đó về nhập tay.
 ```
 
 **Nếu Go — pilot nhỏ nhất (data nào, chạy tay ra sao, đo 3 số nào):**
 
 ```text
-
+Trong 2 tuần, chạy với 3-5 sinh viên và 20-30 thông báo đã ẩn dữ liệu nhạy cảm từ 3-4 kênh. Giai đoạn đầu dùng workflow bán thủ công: người dùng forward/paste thông báo, Rule nhập dữ liệu có cấu trúc, AI đề xuất các trường và bản ghi liên quan, sinh viên xác nhận rồi Rule ghi lịch. Đo ba số chính: (1) phút/người/ngày, (2) tỷ lệ trường tên việc-môn-deadline đúng trước khi sửa, và (3) số deadline hoặc thay đổi bị bỏ sót; ghi thêm tỷ lệ mục phải sửa/hoàn tác để phân tích lỗi.
 ```
 
-**Nếu Not Yet — cần validate gì trước:**
-
-```text
-
-```
-
-**Nếu No-Go — làm gì thay AI:**
-
-```text
-
-```
 
 **Exit / rollback (khi nào dừng AI, quay về cách cũ):**
 
 ```text
-
+Dừng nhánh AI và quay về calendar feed + nhập tay nếu có bất kỳ deadline sai nào được ghi mà chưa qua xác nhận, nếu độ chính xác trích xuất dưới 90%, nếu workflow vẫn tốn trên 5 phút/ngày sau 2 tuần, hoặc nếu có deadline thuộc nguồn theo dõi bị bỏ sót. Khi rollback, vô hiệu hóa bước AI/auto-write, giữ log và bản sao lịch gần nhất, hoàn tác các mục sai, rồi đối soát lại với nguồn gốc trước khi tiếp tục dùng Rule-only.
 ```
 
 ---
 
 ### Self-check nộp phần 02 (nhóm)
-- [ ] Có nhật ký hội tụ 9-12 → 1 (cluster + shortlist + score)
-- [ ] Có validation (quote thật) + research (link kiểm được)
-- [ ] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
-- [ ] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
-- [ ] Có so sánh Rule/Workflow/Agent + Decision Go/Not Yet/No-Go có lý do
+- [x] Có nhật ký hội tụ 9-12 → 1 (cluster + shortlist + score)
+- [x] Có validation (quote thật) + research (link kiểm được)
+- [x] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
+- [x] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
+- [x] Có so sánh Rule/Workflow/Agent + Decision Go/Not Yet/No-Go có lý do
