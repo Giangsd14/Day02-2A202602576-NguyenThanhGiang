@@ -17,20 +17,21 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
-| Scan cá nhân | | |
-| Pitch Problem Card | | |
+| Scan cá nhân | Scan 8 problems theo 4 lăng kính; top 3 cards: phát hiện bất thường dữ liệu, đồng bộ dữ liệu đa nguồn, tìm và đọc bài báo	| Top 3 cards rõ actor + workflow + metric, đủ để pitch|
+| Pitch Problem Card | Pitch Card #1 "Phát hiện lỗi/bất thường trong dữ liệu" — 2 phút, nêu bottleneck bước 3-5 và impact ~1 ngày làm việc| Giúp nhóm có thêm candidate từ domain xử lý dữ liệu khác với domain học tập|
 | Challenge bài của bạn khác | | |
-| Gom trùng / cluster | | |
-| Chọn candidate problem | | |
-| Validation / research | | |
-| Workflow nhóm | | |
-| Problem Statement | | |
-| Rule / Workflow / Agent | | |
-| Decision | | |
+| Gom trùng / cluster | Đóng góp vào việc phân loại candidates #9, #10 vào cluster C| Giúp nhóm nhìn thấy pattern chung về kiểm tra/đồng bộ dữ liệu|
+| Chọn candidate problem | Tham gia scoring; #12 được chọn với điểm 34 cao nhất	| Nhóm hội tụ về 1 candidate có tập người dùng rộng và dễ validation|
+| Validation / research | Tham gia phỏng vấn mô phỏng; research tools (Canvas, Google Tasks, Todoist, IEEE/ERIC)| Có research takeaway rõ: thử lịch tập trung + rule trước khi dùng AI|
+| Workflow nhóm | Đóng góp viết workflow current/future 7→6 bước, bảng metric trước/sau	| |
+| Problem Statement | Đồng viết PS v0 → v1; bổ sung field AI intervention point và rủi ro| PS v1 có đầy đủ 8 fields, metric có số đo cụ thể|
+| Rule / Workflow / Agent | Tham gia so sánh 3 mức; lập luận cho việc chọn Workflow thay vì Agent| Giúp nhóm tránh solution-first|
+| Decision | Tham gia chốt Go với pilot nhỏ, human-in-the-loop| |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
-```text
+```
+Dựa theo vai trò writer + research, dấu tay rõ nhất của bạn nằm ở bảng so sánh Rule/Workflow/Agent và Problem Statement v1 — hai phần cần phân tích logic nhất trong group-report.
 
 ```
 
